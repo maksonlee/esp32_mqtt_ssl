@@ -1,0 +1,15 @@
+menu "Example Configuration"
+
+    config BROKER_URI
+        string "Broker URL"
+        default "mqtts://iot.demo.com:8883"
+        help
+            URL of an mqtt broker which this example connects to.
+
+    config ACCESS_TOKEN
+        string "Access Token"
+        default ""
+        help
+            Access Token of device
+
+endmenu

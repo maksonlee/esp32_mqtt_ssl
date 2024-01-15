@@ -1,0 +1,15 @@
+# cache dir
+.cache/
+
+# Example project files
+build/
+build_esp*_*/
+sdkconfig
+sdkconfig.old
+
+# VS Code Settings
+.vscode/
+
+# VIM files
+*.swp
+*.swo
