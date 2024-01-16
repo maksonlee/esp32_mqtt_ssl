@@ -31,7 +31,7 @@
 
 static const char *TAG = "MQTTS_EXAMPLE";
 static char *topic = "v1/devices/me/telemetry";
-static char *message = "{'ts': %lld, changed': 0, 'device_type': 8, 'fall_detection_type': 0, 'fall_is_walking': 0, 'fall_region_status': 0, 'fall_target_number': 0, 'fall_position_x': -707, 'fall_position_y': 3910, 'fall_position_z': 1184}";
+static char *message = "{'device_ts': %lld, 'changed': 0, 'device_type': 8, 'fall_detection_type': 0, 'fall_is_walking': 0, 'fall_region_status': 0, 'fall_target_number': 0, 'fall_position_x': -707, 'fall_position_y': 3910, 'fall_position_z': 1184}";
 static long long time_now;
 static long long time_prev = 0;
 static esp_mqtt_client_handle_t client;
